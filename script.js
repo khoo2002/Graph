@@ -48,14 +48,14 @@ function linechart(list_x,list_y_1,list_y_2,title_g,label_y,label_x,d_label_y1,d
           datasets: [{
               label: d_label_y1,
               data: list_y_1,
-              borderColor: 'rgb(75, 192, 192)',
+              borderColor: 'rgb(0, 0, 255)',
               tension: 0.1,
               pointStyle:'line',
             },
             {
               label: d_label_y2,
               data: list_y_2,
-              borderColor: 'rgb(75, 192, 192)',
+              borderColor: 'rgb(255, 0, 0)',
               tension: 0.1,
               pointStyle:'line',
             }
