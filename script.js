@@ -188,3 +188,9 @@ function showValue(x,y1,y2,title,label_x,label_y,d_label_y1,d_label_y2){
     barchart(list_x=x_data,list_y=y_data);
   }
 }
+
+function hidden_div(div_id){
+  var div = document.getElementById(div_id);
+  div.setAttribute("class", "democlass");
+}
+  
