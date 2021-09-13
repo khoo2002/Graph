@@ -21,7 +21,7 @@
 <div class='container'>
 <p>
 <label for="charts">Choose a chart type :</label>
-<select name='s_charts' id='s_charts' onchange="showValue('list_x','list_y','title','label_x','label_y','d_label_y1')">
+<select name='s_charts' id='s_charts' onchange="showValue('list_x','list_y1','list_y2','title','label_x','label_y','d_label_y1','d_label_y2')">
   <option value='barchart'>Bar Chart</option>
   <option value='linechart'>Line Chart</option>
   <option value='areachart' disabled>Area Chart</option>
@@ -37,27 +37,35 @@
 <div>
 <p>
 <label for="charts">Title:</label>
-<input type='text' id='title' onchange="showValue('list_x','list_y','title','label_x','label_y','d_label_y1')">
+<input type='text' id='title' onchange="showValue('list_x','list_y1','list_y2','title','label_x','label_y','d_label_y1','d_label_y2')">
 </p>
 <p>
 <label for="charts">Label X:</label>
-<input type='text' id='label_x' onchange="showValue('list_x','list_y','title','label_x','label_y','d_label_y1')">
+<input type='text' id='label_x' onchange="showValue('list_x','list_y1','list_y2','title','label_x','label_y','d_label_y1','d_label_y2')">
 </p>
 <p>
 <label for="charts">Label Y:</label>
-<input type='text' id='label_y' onchange="showValue('list_x','list_y','title','label_x','label_y','d_label_y1')">
+<input type='text' id='label_y' onchange="showValue('list_x','list_y1','list_y2','title','label_x','label_y','d_label_y1','d_label_y2')">
 </p>
 <p>
 <label for="charts">Label Data 1:</label>
-<input type='text' id='d_label_y1' onchange="showValue('list_x','list_y','title','label_x','label_y','d_label_y1')">
+<input type='text' id='d_label_y1' onchange="showValue('list_x','list_y1','list_y2','title','label_x','label_y','d_label_y1','d_label_y2')">
+</p>
+<p>
+<label for="charts">Label Data 2:</label>
+<input type='text' id='d_label_y2' onchange="showValue('list_x','list_y1','list_y2','title','label_x','label_y','d_label_y1','d_label_y2')">
 </p>
 <p>
 <label for="charts">Data X:</label>
-<input type='text' id='list_x' onchange="showValue('list_x','list_y','title','label_x','label_y','d_label_y1')">
+<input type='text' id='list_x' onchange="showValue('list_x','list_y1','list_y2','title','label_x','label_y','d_label_y1','d_label_y2')">
 </p>
 <p>
-<label for="charts">Data Y:</label>
-<input type='text' id='list_y' onchange="showValue('list_x','list_y','title','label_x','label_y','d_label_y1')">
+<label for="charts">Data Y1:</label>
+<input type='text' id='list_y1' onchange="showValue('list_x','list_y1','list_y2','title','label_x','label_y','d_label_y1','d_label_y2')">
+</p>
+<p>
+<label for="charts">Data Y2:</label>
+<input type='text' id='list_y2' onchange="showValue('list_x','list_y1','list_y2','title','label_x','label_y','d_label_y1','d_label_y2')">
 </p>
 </div>
 </div>
