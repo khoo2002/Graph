@@ -18,7 +18,8 @@
 	<canvas id="myChart"></canvas>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
 </div>
-<div class='container'>
+<div class='container' id="data">
+<button onclick="hidden_div('data')">Print</button>
 <p>
 <label for="charts">Choose a chart type :</label>
 <select name='s_charts' id='s_charts' onchange="showValue('list_x','list_y1','list_y2','title','label_x','label_y','d_label_y1','d_label_y2')">
